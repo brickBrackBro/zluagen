@@ -2,7 +2,12 @@
     .name = "zluagen",
 
     .version = "0.0.0",
-    .dependencies = .{},
+    .dependencies = .{
+        .lua = .{
+            .url = "git+https://github.com/brickBrackBro/zlua#b8877d0f5087b45cf2c93baa3ab24c3dabc3bae3",
+            .hash = "122076e12cc22a665d739880cc97efff1ddea7dd3951b766f9f6612eeda5acf5493b",
+        },
+    },
 
     .paths = .{
         "build.zig",
